@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deep Learning Engineering Notes</title>
+  <meta name="description" content="A structured coding journey through NLP, Speech Technology, and Computer Vision — 14 weeks of deep learning engineering notes." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238b5cf6'/><text x='6' y='22' font-size='18' fill='white'>⚡</text></svg>" />
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-mark">⚡</div>
+      DL Notes
+    </a>
+    <div class="nav-links">
+      <a href="#tracks" class="nav-link">Tracks</a>
+      <a href="#notes" class="nav-link">Notes</a>
+      <a href="https://github.com" target="_blank" class="nav-link">
+        GitHub
+        <svg width="10" height="10" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <span class="nav-badge">14 Modules</span>
+    </div>
+    <a href="https://github.com" target="_blank" class="nav-cta">View Repository</a>
+  </nav>
+
+  <!-- ── Hero ────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-tag">
+        <div class="hero-tag-dot"></div>
+        Deep Learning · Engineering Notes
+      </div>
+
+      <h1 class="hero-title">
+        <span class="hero-title-line">Deep Learning</span>
+        <span class="hero-title-line hero-title-gradient">Engineering Notes</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        A structured coding journey through NLP, Speech Technology, and Computer Vision — built for engineers who want to understand the math <em>and</em> the code.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#tracks" class="btn-primary">Explore Tracks</a>
+        <a href="#notes" class="btn-secondary">Browse Notes →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Stats ───────────────────────────────────────────────── -->
+  <section class="stats-section">
+    <div class="stats-grid">
+      <div class="stat-card nlp reveal">
+        <div class="stat-number" data-count="4">0</div>
+        <div class="stat-label">NLP Weeks</div>
+      </div>
+      <div class="stat-card speech reveal reveal-delay-1">
+        <div class="stat-number" data-count="4">0</div>
+        <div class="stat-label">Speech Weeks</div>
+      </div>
+      <div class="stat-card vision reveal reveal-delay-2">
+        <div class="stat-number" data-count="6">0</div>
+        <div class="stat-label">Vision Weeks</div>
+      </div>
+      <div class="stat-card total reveal reveal-delay-3">
+        <div class="stat-number" data-count="14">0</div>
+        <div class="stat-label">Total Modules</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><div class="divider-line"></div></div>
+
+  <!-- ── Learning Tracks ─────────────────────────────────────── -->
+  <section class="section" id="tracks">
+    <div class="section-header reveal">
+      <div class="section-tag">
+        <div class="section-tag-bar"></div>
+        Learning Tracks
+      </div>
+      <h2 class="section-title">Three Domains.<br />One Engineering Mindset.</h2>
+      <p class="section-desc">Dive into the three core pillars of modern deep learning — each with its own identity, toolkit, and coding patterns.</p>
+    </div>
+
+    <div class="tracks-grid">
+
+      <!-- NLP -->
+      <div class="track-card nlp reveal">
+        <div class="track-card-icon">🔮</div>
+        <div class="track-card-name">Natural Language Processing</div>
+        <p class="track-card-desc">From tokenization and embeddings to transformers and attention mechanisms. Build language models from scratch and understand every gradient.</p>
+        <div class="track-progress">
+          <div class="track-progress-label">
+            <span>Weeks 1–4</span>
+            <span>4 modules</span>
+          </div>
+          <div class="track-progress-bar">
+            <div class="track-progress-fill" data-width="100"></div>
+          </div>
+        </div>
+        <div class="track-card-footer">
+          <div class="track-weeks">
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+          </div>
+          <a href="#nlp-notes" class="track-btn" onclick="openGroup('nlp-group'); return false;">
+            View NLP Notes
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6H10M10 6L7 3M10 6L7 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Speech -->
+      <div class="track-card speech reveal reveal-delay-1">
+        <div class="track-card-icon">🎙️</div>
+        <div class="track-card-name">Speech Technology</div>
+        <p class="track-card-desc">Waveforms, spectrograms, CTC loss, and neural TTS. Learn how machines listen and speak, one mel-filterbank at a time.</p>
+        <div class="track-progress">
+          <div class="track-progress-label">
+            <span>Weeks 5–8</span>
+            <span>4 modules</span>
+          </div>
+          <div class="track-progress-bar">
+            <div class="track-progress-fill" data-width="100"></div>
+          </div>
+        </div>
+        <div class="track-card-footer">
+          <div class="track-weeks">
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+          </div>
+          <a href="#speech-notes" class="track-btn" onclick="openGroup('speech-group'); return false;">
+            View Speech Notes
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6H10M10 6L7 3M10 6L7 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Vision -->
+      <div class="track-card vision reveal reveal-delay-2">
+        <div class="track-card-icon">👁️</div>
+        <div class="track-card-name">Computer Vision</div>
+        <p class="track-card-desc">ConvNets, object detection, segmentation, and vision transformers. Teach machines to see with pixel-level precision across 6 intensive weeks.</p>
+        <div class="track-progress">
+          <div class="track-progress-label">
+            <span>Weeks 9–14</span>
+            <span>6 modules</span>
+          </div>
+          <div class="track-progress-bar">
+            <div class="track-progress-fill" data-width="100"></div>
+          </div>
+        </div>
+        <div class="track-card-footer">
+          <div class="track-weeks">
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+            <div class="track-week-dot"></div>
+          </div>
+          <a href="#vision-notes" class="track-btn" onclick="openGroup('vision-group'); return false;">
+            View Vision Notes
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6H10M10 6L7 3M10 6L7 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"><div class="divider-line"></div></div>
+
+  <!-- ── Notes Navigation ────────────────────────────────────── -->
+  <section class="notes-section" id="notes">
+    <div class="section-header reveal">
+      <div class="section-tag">
+        <div class="section-tag-bar"></div>
+        Notes Index
+      </div>
+      <h2 class="section-title">14 Weeks of Engineering Notes</h2>
+      <p class="section-desc">Click any week to open the notes directly in Google Drive.</p>
+    </div>
+
+    <div class="notes-grid">
+
+      <!-- NLP Group -->
+      <div class="notes-group nlp reveal" id="nlp-group">
+        <div class="notes-group-header">
+          <div class="notes-group-title-wrap">
+            <div class="notes-group-indicator"></div>
+            <span class="notes-group-title">Natural Language Processing</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="notes-group-count">4 weeks</span>
+            <span class="notes-group-chevron">▾</span>
+          </div>
+        </div>
+        <div class="notes-list" id="nlp-notes">
+          <!-- ✏️  REPLACE the href values below with your actual Google Drive links -->
+          <a href="https://drive.google.com/YOUR_WEEK1_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">01</span>
+            <span class="notes-item-label">Week 1 — Foundations &amp; Text Processing</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK2_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">02</span>
+            <span class="notes-item-label">Week 2 — Embeddings &amp; Word Vectors</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK3_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">03</span>
+            <span class="notes-item-label">Week 3 — Sequence Models &amp; RNNs</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK4_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">04</span>
+            <span class="notes-item-label">Week 4 — Transformers &amp; Attention</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Speech Group -->
+      <div class="notes-group speech reveal reveal-delay-1" id="speech-group">
+        <div class="notes-group-header">
+          <div class="notes-group-title-wrap">
+            <div class="notes-group-indicator"></div>
+            <span class="notes-group-title">Speech Technology</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="notes-group-count">4 weeks</span>
+            <span class="notes-group-chevron">▾</span>
+          </div>
+        </div>
+        <div class="notes-list" id="speech-notes">
+          <!-- ✏️  REPLACE the href values below with your actual Google Drive links -->
+          <a href="https://drive.google.com/YOUR_WEEK5_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">05</span>
+            <span class="notes-item-label">Week 5 — Audio Signals &amp; Features</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK6_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">06</span>
+            <span class="notes-item-label">Week 6 — ASR &amp; Acoustic Models</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK7_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">07</span>
+            <span class="notes-item-label">Week 7 — CTC Loss &amp; Sequence-to-Sequence</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK8_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">08</span>
+            <span class="notes-item-label">Week 8 — Neural TTS &amp; Vocoders</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Vision Group -->
+      <div class="notes-group vision reveal reveal-delay-2" id="vision-group">
+        <div class="notes-group-header">
+          <div class="notes-group-title-wrap">
+            <div class="notes-group-indicator"></div>
+            <span class="notes-group-title">Computer Vision</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="notes-group-count">6 weeks</span>
+            <span class="notes-group-chevron">▾</span>
+          </div>
+        </div>
+        <div class="notes-list" id="vision-notes">
+          <!-- ✏️  REPLACE the href values below with your actual Google Drive links -->
+          <a href="https://drive.google.com/YOUR_WEEK9_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">09</span>
+            <span class="notes-item-label">Week 9 — ConvNets &amp; Feature Maps</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK10_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">10</span>
+            <span class="notes-item-label">Week 10 — ResNets &amp; Skip Connections</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK11_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">11</span>
+            <span class="notes-item-label">Week 11 — Object Detection</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK12_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">12</span>
+            <span class="notes-item-label">Week 12 — Segmentation &amp; Keypoints</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK13_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">13</span>
+            <span class="notes-item-label">Week 13 — Vision Transformers (ViT)</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+          <a href="https://drive.google.com/YOUR_WEEK14_LINK" target="_blank" rel="noopener" class="notes-item">
+            <span class="notes-item-num">14</span>
+            <span class="notes-item-label">Week 14 — Generative Vision Models</span>
+            <span class="notes-item-arrow drive-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Footer ──────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <div class="footer-brand-mark">⚡</div>
+          Deep Learning Engineering Notes
+        </div>
+        <p class="footer-desc">
+          A structured, code-first exploration of modern deep learning — covering NLP, speech, and computer vision across 14 weeks of intensive study.
+        </p>
+      </div>
+
+      <div class="footer-meta">
+        <div class="footer-meta-row">
+          <a href="https://github.com" target="_blank" class="footer-gh-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.09.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.577.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+            </svg>
+            View on GitHub
+          </a>
+        </div>
+        <div>Last updated: <span id="last-updated">—</span></div>
+        <div style="margin-top:4px;">14 modules · 3 tracks</div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Deep Learning Engineering Notes</span>
+      <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-micro);">Built with HTML · CSS · JS</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
