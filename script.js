@@ -9,22 +9,22 @@
    ─────────────────────────────────────────────────────────────── */
 const notes = {
   nlp: [
-    { week: 1, link: "" },
-    { week: 2, link: "" },
-    { week: 3, link: "" },
-    { week: 4, link: "" }
+    { week: 1, link: "https://drive.google.com/file/d/1kP0obSWCotlOU_KolLykJAL6PldOD-dY/view?usp=sharing" },
+    { week: 2, link: "https://drive.google.com/file/d/1snd_vy7Fm6Jenwcey8TT08eC3VuyADwc/view?usp=sharing" },
+    { week: 3, link: "https://drive.google.com/file/d/1k53E8dIdQg-Y3rdNNlyfm2ykcNlCb4j-/view?usp=drive_link" },
+    { week: 4, link: "https://drive.google.com/file/d/1bH2duLhyCfwzvQOTx8v2c7dYB1JuZsgI/view?usp=drive_link" }
   ],
   speech: [
-    { week: 5, link: "" },
-    { week: 6, link: "" },
-    { week: 7, link: "" },
-    { week: 8, link: "" }
+    { week: 5, link: "https://drive.google.com/file/d/1nO7qa9Sr4gc17eS3oYEUbKgSFljgH0_z/view?usp=drive_link" },
+    { week: 6, link: "https://drive.google.com/file/d/17vhVgvYXWsu2O0Vuq-3ESNoVkEpZxUSl/view?usp=drive_link" },
+    { week: 7, link: "https://drive.google.com/file/d/146g9GvXiucHrA__We6I9AqgL8FGmTPOs/view?usp=drive_link" },
+    { week: 8, link: "https://drive.google.com/file/d/1BR2l37StIVmhwmrXMk8yg2pK4wlArt7d/view?usp=drive_link" }
   ],
   cv: [
-    { week: 9,  links: ["", ""] },
-    { week: 10, links: ["", ""] },
-    { week: 11, link: "" },
-    { week: 12, link: "" }
+    { week: 9,  links: ["https://drive.google.com/file/d/1hxwmaGPzu-UliTLu62e3_4mUwdGo8irO/view?usp=drive_link", "https://drive.google.com/file/d/1zMaQv0mVI1cdlt0aRXzO17eD_p8pB5oZ/view?usp=drive_link"] },
+    { week: 10, links: ["https://drive.google.com/file/d/1-cjaVRVZyNV_wEvTZGIqN5TP3w3GqE5a/view?usp=drive_link", "https://drive.google.com/file/d/1ZXa3rFJlUkj14oN9-RTFeOLuPa3zojAw/view?usp=drive_link"] },
+    { week: 11, link: "https://drive.google.com/file/d/146g9GvXiucHrA__We6I9AqgL8FGmTPOs/view?usp=drive_link" },
+    { week: 12, link: "https://drive.google.com/file/d/1BR2l37StIVmhwmrXMk8yg2pK4wlArt7d/view?usp=drive_link" }
   ]
 };
 
@@ -35,7 +35,7 @@ const MODULES = [
     title: "Natural Language Processing", label: "NLP",
     desc: "Step inside the mind of a language model — tokens, embeddings, attention, and the flow of meaning through a network.",
     tags: ["Embeddings", "Attention", "Transformers", "Semantics"],
-    weekTitles: { 1: "Foundations & Text Processing", 2: "Embeddings & Word Vectors", 3: "Sequence Models & RNNs", 4: "Transformers & Attention" },
+    weekTitles: { 1: "All about HF datasets", 2: "Everything about Tokenizers", 3: "Pre-training of GPT model", 4: "The universe of Fine-tuning" },
     blurb: "Weekly notes, derivations, and code references."
   },
   {
@@ -43,7 +43,7 @@ const MODULES = [
     title: "Speech Technology", label: "Speech",
     desc: "Where sound becomes information — waveforms, spectrograms, acoustic models, and neural voices brought to life.",
     tags: ["Waveforms", "Spectrograms", "ASR", "Neural TTS"],
-    weekTitles: { 5: "Audio Signals & Features", 6: "ASR & Acoustic Models", 7: "CTC Loss & Seq2Seq", 8: "Neural TTS & Vocoders" },
+    weekTitles: { 5: "Language identification using Wav2Vec2", 6: "Speaker Diarization", 7: "Speech-to-Text: Fine-tuning Wav2Vec2", 8: "Text-to-Speech: Fine-tuning Speech-T5" },
     blurb: "Weekly notes, derivations, and code references."
   },
   {
@@ -51,7 +51,7 @@ const MODULES = [
     title: "Computer Vision", label: "Vision",
     desc: "The machine learns to see — convolutions, detection, segmentation, and the geometry of visual perception.",
     tags: ["ConvNets", "Detection", "Segmentation", "ViT"],
-    weekTitles: { 9: "ConvNets & Feature Maps", 10: "Detection & Segmentation", 11: "Vision Transformers", 12: "Generative Vision Models" },
+    weekTitles: { 9: "Image Classification", 10: "Object Detection", 11: "Depth Estimation", 12: "Denoising, Super-Resolution and Deblurring" },
     blurb: "Weekly notes — some weeks include both lecture and supplementary sets."
   }
 ];
