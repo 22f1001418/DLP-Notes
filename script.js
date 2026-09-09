@@ -23,8 +23,8 @@ const notes = {
   cv: [
     { week: 9,  links: ["https://drive.google.com/file/d/1hxwmaGPzu-UliTLu62e3_4mUwdGo8irO/view?usp=drive_link", "https://drive.google.com/file/d/1zMaQv0mVI1cdlt0aRXzO17eD_p8pB5oZ/view?usp=drive_link"] },
     { week: 10, links: ["https://drive.google.com/file/d/1-cjaVRVZyNV_wEvTZGIqN5TP3w3GqE5a/view?usp=drive_link", "https://drive.google.com/file/d/1ZXa3rFJlUkj14oN9-RTFeOLuPa3zojAw/view?usp=drive_link"] },
-    { week: 11, link: "https://drive.google.com/file/d/146g9GvXiucHrA__We6I9AqgL8FGmTPOs/view?usp=drive_link" },
-    { week: 12, link: "https://drive.google.com/file/d/1BR2l37StIVmhwmrXMk8yg2pK4wlArt7d/view?usp=drive_link" }
+    { week: 11, link: "https://drive.google.com/file/d/1nezBYFginuBjfcsoxX_Jix2qSvzK1TaR/view?usp=sharing" },
+    { week: 12, link: "https://drive.google.com/file/d/1isuoiCdhpB2MSyS5kgJ1O7FPCHtK610j/view?usp=sharing" }
   ]
 };
 
